@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+body{
+    background-image: url("/static/images/back.jpg");
+}
+div{
+    background-color:  rgb(241, 234, 233);;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mini Project</title>
+        <link rel="stylesheet" href="/static/css/index.css">
+
+    </head>
+    <body>
+        <center>
+            <div>
+            <h1>Disease prediction using ML</h1>
+            <form action="{{ url_for("predict")}}" method="POST">
+                    <label>Enter the Symptoms1:</label>
+                    <input type="text" name="s1" placeholder="e.g:itching"><br><br>
+                    <label>Enter the Symptoms2:</label>
+                    <input type="text" name="s2" placeholder="e.g:skin_rash"><br><br>
+                    <label>Enter the Symptoms3:</label>
+                    <input type="text" name="s3" placeholder="e.g:nodal_skin_eruptions"><br><br>
+                <button type="submit">Predict</button>
+            </form>
+            </div>
+        </center>
+    </body>
+</html>
